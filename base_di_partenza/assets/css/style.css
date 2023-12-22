@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&family=Spectral:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&family=Spectral&display=swap");
+body {
+  min-height: 100vh;
+}
+/* HEADER E NAV BAR */
+.div1 {
+  background-color: #fec016;
+  width: 100%;
+  height: 80px;
+}
+
+.div1 nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1em;
+}
+nav {
+  background-color: #fec016;
+}
+/* creo animazione per la nav per farle cambiare colore allo scroll in basso */
+@keyframes ColorAnimation {
+  0% {
+    background-color: #fec016;
+  }
+  10% {
+    background-color: white;
+  }
+}
+
+.changeColor {
+  animation: ;
+}
+
+.div2 {
+  display: flex;
+}
+.div2 ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #191919;
+  font-family: "Roboto Serif";
+}
+ul li {
+  margin-right: 1em;
+}
+hr {
+  border: 0.5px solid black;
+  margin: 0;
+}
+.div3 {
+  width: 100%;
+  height: 470px;
+  background-color: #fec016;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 80px;
+}
+button {
+  background-color: #191919;
+  color: white;
+  padding: 1em;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+}
+.button2 {
+  width: 200px;
+  font-size: 20px;
+  padding: 8px 20px;
+}
+
+.firsth2 {
+  font-family: "Spectral";
+  font-weight: 450;
+  font-size: 115px;
+  letter-spacing: -0.055em;
+  line-height: 88px;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-family: "Roboto Serif";
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.div4 {
+  margin: 0 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.div6 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+img {
+  margin-right: 10px;
+}
+
+.div7 {
+  display: flex;
+  justify-content: center;
+}
+.number {
+  margin-right: 14px;
+}
+.div9 {
+  display: inline;
+}
