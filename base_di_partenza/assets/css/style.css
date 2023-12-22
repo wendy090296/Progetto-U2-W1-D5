@@ -19,7 +19,7 @@ nav {
   background-color: #fec016;
 }
 /* creo animazione per la nav per farle cambiare colore allo scroll in basso */
-@keyframes ColorAnimation {
+/* @keyframes ColorAnimation {
   0% {
     background-color: #fec016;
   }
@@ -30,7 +30,7 @@ nav {
 
 .changeColor {
   animation: ;
-}
+} */
 
 .div2 {
   display: flex;
@@ -111,6 +111,10 @@ img {
 .div7 {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Roboto", sans serif;
+  height: 400px;
 }
 .number {
   margin-right: 14px;
